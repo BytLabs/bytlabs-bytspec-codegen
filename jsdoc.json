@@ -1,0 +1,12 @@
+{
+    "tags": {
+      "allowUnknownTags" : true,
+      "dictionaries": ["jsdoc", "closure"]
+    },
+    "source": {
+      "include": ["src"],
+      "exclude":["src/resolvers/project"],
+      "includePattern": ".+\\.(j|t)s(doc|x)?$",
+      "excludePattern": "(^|\\/|\\\\)_"
+    }
+  }

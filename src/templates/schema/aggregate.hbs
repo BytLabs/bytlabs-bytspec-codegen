@@ -1,0 +1,4 @@
+var {{aggregate.name}} = {{aggregate.op}};
+{{#each aggregate.actions}}
+{{aggregate.name}}.{{this.name}}({{#each this.parameters}}{{this}}{{#unless @last}},{{/unless}}{{/each}});
+{{/each}}

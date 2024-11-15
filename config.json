@@ -1,0 +1,8 @@
+{
+    "locales": [],
+    "outDir": "./../bytlabs-bytspec-codegen-docs/docs/api/",
+    "localesDir": "./../bytlabs-bytspec-codegen-docs/docs/i18n/{locale}/docusaurus-plugin-content-docs/current/api",
+    "sidebar": "./../bytlabs-bytspec-codegen-docs/",
+    "jsdoc": "./jsdoc.json",
+    "bulma": false
+  }

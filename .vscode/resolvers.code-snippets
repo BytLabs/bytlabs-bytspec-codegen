@@ -1,0 +1,51 @@
+{
+
+	"Add description comment": {
+		"scope": "javascript,typescript",
+		"prefix": "desc",
+		"body": [
+			"/**",
+			"* Description placeholder",
+			"*/",
+		],
+		"description": "Add JSDoc description comment"
+	},
+	"Add resolver": {
+		"scope": "javascript,typescript",
+		"prefix": "resol",
+		"body": [
+			"/**",
+			"* Description placeholder",
+			"*/",
+			"class ${TM_FILENAME_BASE} {",
+			"",
+			"\t/**",
+			"\t* Container",
+			"\t* @type {Provider}",
+			"\t*/",
+			"\tprovider",
+			"",
+			"\t/**",
+			"\t* Creates an instance of ${TM_FILENAME_BASE}.",
+			"\t* @param {Provider} provider",
+			"\t*/",
+			"\tconstructor(provider) {",
+			"\t\tthis.provider = provider;",
+			"\t}",
+			"",
+			"\t/**",
+			"\t* Generates code based on a given schema object, using a specified template.",
+			"\t* @param {ExecutionArgs} param",
+			"\t* @returns {string}",
+			"\t* ",
+			"\t*/",
+			"\tasync execute({ context, ...options }) {",
+			"\t}",
+
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "Add resolver"
+	}
+}

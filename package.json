@@ -1,10 +1,10 @@
 {
-  "name": "bytlabs-ddd-generator",
+  "name": "bytlabs-bytspec-codegen",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "dev": "node ./src/index.js",
+    "docs": "jsdoc-to-mdx -c config.json"
   },
   "type": "module",
   "keywords": [],
@@ -12,11 +12,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bl": "^6.0.16",
-    "case-anything": "^3.1.0",
+    "awilix": "^12.0.3",
+    "builder-pattern": "^2.2.0",
+    "chance": "^1.1.12",
     "change-case": "^5.4.4",
+    "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
     "handlebars": "^4.7.8",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jsdoc-to-mdx": "^1.2.1"
   }
 }
